@@ -66,8 +66,11 @@ public class Animal {
    
    public static void main(String[] args) {
       Animal animal1 = randomAnimalType();
+
       System.out.println(animal1.toString());
       System.out.println(animal1.Speak());
       System.out.println(animal1.speakBackward());
+      
+     
    }
 }
