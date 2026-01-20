@@ -17,9 +17,14 @@ public class Cage {
       this.animal = animal;
    }
    
+   public String toString() {
+      return "This cage contains: " + animal;
+   }
+   
    public static void main(String[] args) {
       Cage cage1 = new Cage();
       System.out.println(cage1.getAnimal());
+      System.out.println(cage1.toString());
       
    
    }

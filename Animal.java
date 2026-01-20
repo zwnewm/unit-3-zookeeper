@@ -28,7 +28,6 @@ public class Animal {
       }
  
       animalCount++;
-      System.out.println(Animal.getAnimalCount());
       return animal;
       
    
