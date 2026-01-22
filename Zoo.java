@@ -22,7 +22,7 @@ public class Zoo {
    }
    
    public boolean putAnimalInCage(Cage cage, Animal animal) {
-      if(cage == cage1 || cage == cage2 || cage == cage2) {
+      if(cage == cage1 || cage == cage2 || cage == cage3) {
          cage.changeAnimal(animal);
          return true;
       
@@ -43,7 +43,16 @@ public class Zoo {
         Zoo zoo1 = new Zoo();
         System.out.println(zoo1);
         System.out.println("Animals created so far: " + zoo1.howManyAnimals());
-
+        
+        Animal animal1 = Animal.randomAnimalType();
+        
+       
+        System.out.println("\nAnimal Behaviors: ");
+        System.out.println("Animal type = " + animal1.toString());
+        System.out.println(animal1.Speak());
+        System.out.println(animal1.speakBackward());
+        
+        
         
           
    }
